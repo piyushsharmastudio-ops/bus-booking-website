@@ -11,23 +11,17 @@ export default function Header() {
           {/* Navigation */}
           <nav className="hidden md:flex items-center space-x-6">
             <div className="relative group">
-              <button className="flex items-center text-gray-700 hover:text-gray-900">
-                Plan Your future Journey
-                <svg className="ml-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
-                </svg>
-              </button>
+              <a href="/plan-journey" className="flex items-center text-gray-700 hover:text-gray-900">
+                Plan Your Journey
+              </a>
             </div>
             <div className="relative group">
-              <button className="flex items-center text-gray-700 hover:text-gray-900">
-               bus trip Service
-                <svg className="ml-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
-                </svg>
-              </button>
+              <a href="/luxury-service" className="flex items-center text-gray-700 hover:text-gray-900">
+                Luxury Bus Service
+              </a>
             </div>
-            <a href="#" className="text-gray-700 hover:text-gray-900"> bus Trip Tracker</a>
-            <a href="#" className="text-gray-700 hover:text-gray-900">Help</a>
+            <a href="/trip-tracker" className="text-gray-700 hover:text-gray-900">Bus Trip Tracker</a>
+            <a href="/help" className="text-gray-700 hover:text-gray-900">Help</a>
           </nav>
 
           {/* Right side - Language and Auth */}
