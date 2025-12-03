@@ -5,7 +5,7 @@ export default function Header() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <span className="text-2xl font-bold text-flixbus-dark">piyush sharma bus</span>
+            <span className="text-2xl font-bold text-flixbus-dark">(piyush sharma luxury bus service)</span>
           </div>
 
           {/* Navigation */}

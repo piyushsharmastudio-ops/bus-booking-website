@@ -3,7 +3,7 @@ import "./globals.css";
 import Chatbot from "@/components/Chatbot";
 
 export const metadata: Metadata = {
-  title: "piyush sharma bus  - Low cost travel in India by bus",
+  title: "piyush sharma luxury bus service  - Low cost travel in India by bus",
   description: "Book affordable bus tickets across India with FlixBus",
 };
 

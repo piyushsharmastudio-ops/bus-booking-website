@@ -16,7 +16,7 @@ export default function HeroSection() {
       >
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center">
-            <h1 className="text-5xl font-bold text-white mb-4">piyush sharma bus</h1>
+            <h1 className="text-5xl font-bold text-white mb-4">piyush sharma luxury bus service</h1>
             <p className="text-2xl text-white">Low cost travel in India by bus</p>
           </div>
         </div>
